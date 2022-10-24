@@ -1,0 +1,25 @@
+# Data Files
+*.csv
+*.txt
+*.json
+*.db
+
+*__pycache__
+
+*.pytest_cache
+
+# Development/Review in Jupyter
+.ipynb_checpoints*
+
+# Logs
+*logs/
+
+# Pipfiles
+*Pipfile*
+
+# Build
+build/
+dist/
+
+# Logs
+*.log
