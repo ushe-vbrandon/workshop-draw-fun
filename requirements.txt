@@ -1,0 +1,4 @@
+notebook
+pyinstaller
+pytest
+pytest-mock
