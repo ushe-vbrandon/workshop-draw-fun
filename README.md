@@ -16,3 +16,31 @@ Add more files with more queries to discover how the draw-fun renderer works!
 Work with your team to craft the OBJECTIVE message!
 
 
+## Environment
+Supported OS:
+- Windows 10
+- Windows 11
+- Ubuntu 20.04
+- MacOS XX.X (untested)
+
+**python version == 3.10**
+
+### Virtual environment with Pipenv
+Support Pipenv and Conda Python environment management via requirements.txt
+
+**Pipenv**
+Note: pipenv can be installed as an OS package ('dnf install pipenv') or as python package with base python installed ('pip install --user pipenv')
+```bash
+pipenv install -r requirements.txt
+# activate shell
+pipenv shell
+```
+
+**Conda**
+```bash
+conda create --name draw-fun python=3.10
+conda activate draw-fun
+conda install pip
+pip install -r requirements.txt
+```
+
